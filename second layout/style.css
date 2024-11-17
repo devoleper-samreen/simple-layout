@@ -33,7 +33,7 @@ body{
     flex: 1 1 calc(25% - 30px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .parent{
         padding: 0 15px;
     }
