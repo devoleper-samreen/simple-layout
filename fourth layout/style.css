@@ -53,7 +53,7 @@
  .parent{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     padding: 30px 20px;
  }
 
@@ -87,7 +87,7 @@
     }
  }
 
- @media screen and (max-width: 600px){
+ @media screen and (max-width: 750px){
 
     .navbar{
         height: 80px;
@@ -110,7 +110,44 @@
 
      .right{
         width: 75%;
+     } 
+ }
+
+ @media screen and (max-width: 500px){
+
+    .navbar{
+        height: 80px;
+    }
+
+    .box1{
+        ul{
+            gap: 7px;
+    
+            li{
+                width: 25px;
+                height: 35px;
+            }
+    
+            .logo{
+                width: 30px;
+            }
+        } 
      }
 
-    
+     .box2{
+        width: 40px;
+        height: 40px;
+     }
+
+     .right{
+        width: 70%;
+     }
+
+     .left{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #ff0000;
+     }
+ 
  }
